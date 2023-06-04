@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/test-training-task2/static/css/main.8eea4b47.css",
-    "main.js": "/test-training-task2/static/js/main.85b824a4.js",
+    "main.js": "/test-training-task2/static/js/main.db04c8b7.js",
     "static/css/588.63519b10.chunk.css": "/test-training-task2/static/css/588.63519b10.chunk.css",
     "static/js/588.35d0c124.chunk.js": "/test-training-task2/static/js/588.35d0c124.chunk.js",
     "static/js/970.239e80b1.chunk.js": "/test-training-task2/static/js/970.239e80b1.chunk.js",
@@ -9,13 +9,13 @@
     "static/media/gitHub.svg": "/test-training-task2/static/media/gitHub.b2294bccaa20da50b7d58419f07c0892.svg",
     "index.html": "/test-training-task2/index.html",
     "main.8eea4b47.css.map": "/test-training-task2/static/css/main.8eea4b47.css.map",
-    "main.85b824a4.js.map": "/test-training-task2/static/js/main.85b824a4.js.map",
+    "main.db04c8b7.js.map": "/test-training-task2/static/js/main.db04c8b7.js.map",
     "588.63519b10.chunk.css.map": "/test-training-task2/static/css/588.63519b10.chunk.css.map",
     "588.35d0c124.chunk.js.map": "/test-training-task2/static/js/588.35d0c124.chunk.js.map",
     "970.239e80b1.chunk.js.map": "/test-training-task2/static/js/970.239e80b1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8eea4b47.css",
-    "static/js/main.85b824a4.js"
+    "static/js/main.db04c8b7.js"
   ]
 }
