@@ -56,8 +56,8 @@ const TweetsItem = ({ id, user, tweets, followers, avatar }) => {
       </div>
 
       <div className={css.bottomContainer}>
-        <p className={css.textParagraph}>{tweets} tweets</p>
-        <p className={css.textParagraph}>{formattedFollowers} followers</p>
+        <p className={css.textTweets}>{tweets} tweets</p>
+        <p className={css.textFollowers}>{formattedFollowers} followers</p>
 
         {isFollowing || isUserFollowing ? (
           <button
