@@ -1,0 +1,142 @@
+.profile {
+  position: relative;
+  width: 380px;
+  height: 460px;
+  /* margin: 20px auto; */
+  background: linear-gradient(
+    114.99deg,
+    #471ca9 -0.99%,
+    #5736a3 54.28%,
+    #4b2a99 78.99%
+  );
+  box-shadow: -3px 8px 24px rgba(0, 0, 0, 0.23);
+  border-radius: 24px;
+
+  transition-property: transform;
+  transition-duration: 0.3s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.profile:hover {
+  transform: scale(1.02);
+}
+
+.logoWrapper {
+  position: absolute;
+  left: 5.29%;
+  right: 75.33%;
+  top: 4.39%;
+  bottom: 90.86%;
+
+  opacity: 0.3;
+}
+
+.hero {
+  position: absolute;
+  width: 327px;
+  height: 177px;
+  left: 26px;
+  top: 24px;
+}
+
+.divider {
+  position: absolute;
+  width: 380px;
+  height: 7px;
+  left: 0px;
+  top: 219px;
+
+  background: #ebd8ff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.06), inset 0px -2px 4px #ae7be3,
+    inset 0px 4px 3px #fbf8ff;
+}
+
+.elipseBox {
+  position: absolute;
+  width: 76px;
+  height: 76px;
+  left: 152px;
+  top: 184px;
+  background: #ebd8ff;
+  box-shadow: 0px 5.11111px 5.11111px rgba(0, 0, 0, 0.06),
+    inset 0px -2.55556px 5.11111px #ae7be3,
+    inset 0px 5.11111px 3.83333px #fbf8ff;
+  border-radius: 38px;
+}
+
+.elipse {
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  left: 10px;
+  top: 10px;
+  border-radius: 28px;
+  background: #5736a3;
+}
+
+.userImage {
+  position: absolute;
+  border-radius: 28px;
+}
+
+.bottomContainer {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 380px;
+  top: 283px;
+
+  color: #ebd8ff;
+}
+
+.textParagraph {
+  font-size: 21px;
+  line-height: 26px;
+  text-transform: uppercase;
+  padding-bottom: 18px;
+}
+
+.followBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 28px;
+
+  width: 190px;
+  height: 46px;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+
+  border-width: 0px;
+
+  background: #ebd8ff;
+
+  transition-property: background, color;
+  transition-duration: 0.3s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.followBtnActive {
+  composes: followBtn;
+  background: #5cd3a8;
+}
+
+.followBtn:hover {
+  background: #a959ff;
+}
+
+.followBtnActive:hover {
+  background: #3db289;
+  cursor: pointer;
+}
